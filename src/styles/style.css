@@ -36,7 +36,6 @@ h3 {
   margin: 0;
 
   font: normal 72px/1.2em Neucha, sans-serif;
-  /* z-index: 20; */
 }
 
 h2 {
@@ -60,11 +59,10 @@ h3 {
 }
 
 .bg-light {
+  z-index: -1;
+
   background-color: var(--light);
-
-  z-index: -2;
 }
-
 
 body {
   margin: 0;
@@ -167,14 +165,14 @@ body {
 }
 
 .nav-section-card {
+  z-index: 1;
+
   display: block;
   box-sizing: border-box;
   padding: 24px;
 
   color: var(--dark);
   text-decoration: none;
-
-  z-index: 1;
 }
 
 .card-number {
