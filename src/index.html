@@ -157,22 +157,21 @@
   </main>
   <footer class="footer">
     <div class="container">
-      <div class="content subscription cl-white">
+      <div class="content subscription-box cl-white">
         <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
-        <div class="flex-right">
-          <p class="mt-0">Электронная почта</p>
-            <div class="flex-input">
-              <input type="text" id="email" placeholder="Ваша электронная почта">
-              <button></button>
+        <div class="form-block">
+          <p class="mt-0 title">Электронная почта</p>
+            <form class="subscription-form" method="GET" action="#">
+              <input type="email" id="email" placeholder="Ваша электронная почта">
               <label for="email" class="sr-only">Ваша электронная почта</label>
-            </div>
+              <button type="submit"></button>
+            </form>
             <div class="rules">Подписываясь, вы принимаете <a href="#" class="cl-white">правила сервиса</a></div>
         </div>
       </div>
-      <div class="contact">
-        <p>© 2020 Константин Константинопольский</p>
+      <div class="copyright">
+        <p>© 2022 <a class="cl-blue" href="https://github.com/andr-novikov">Андрей Новиков</a></p>
         <p>По материалам статьи <a class="cl-blue" href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
-        <a class="cl-blue" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
       </div>
     </div>
   </footer>

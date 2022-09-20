@@ -225,14 +225,14 @@ body {
   font: normal 24px/1.2em Neucha, sans-serif;
 }
 
-.subscription {
+.subscription-box {
   align-items: center;
   padding: 40px 55px;
 
   background-color: var(--primary-dark);
 }
 
-.flex-input {
+.subscription-form {
   display: flex;
   height: 50px;
   margin: 0;
@@ -240,7 +240,7 @@ body {
   border: none;
 }
 
-.flex-input input {
+.subscription-form input {
   box-sizing: border-box;
   height: 100%;
   padding: 15px;
@@ -249,7 +249,7 @@ body {
   outline: none;
 }
 
-.flex-input button {
+.subscription-form button {
   position: relative;
 
   flex-basis: 70px;
@@ -266,7 +266,7 @@ body {
   cursor: pointer;
 }
 
-.flex-input button::before {
+.subscription-form button::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -281,7 +281,7 @@ body {
   content: "";
 }
 
-.flex-input button:hover {
+.subscription-form button:hover {
   background-color: var(--primary-hover);
 }
 
@@ -289,12 +289,12 @@ body {
   font-size: 12px;
 }
 
-.flex-right > p {
+.title {
   font-size: 16px;
   line-height: 1.6em;
 }
 
-.contact {
+.copyright {
   margin-top: 60px;
 
   font-size: 14px;
